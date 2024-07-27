@@ -1,13 +1,23 @@
 const Button = () => {
-  const styles = {
-    backgroundColor: "blue",
-    color: "white",
-    border: "none",
-    padding: "10px",
-    borderRadius: "10%"
+
+  // let count = 0;
+  // const handleClick = () => {
+  //   if(count < 3){
+  //     count++;
+  //     console.log(`You clicked the button ${count} time/times`);
+  //   } else {
+  //     console.log(`Stop clicking the button!`);
+  //   }
+  // }
+
+  const handleClick = (e) => {
+    e.target.textContent = 'Stop it bro'
   }
+
   return (
-    <button style= {styles}>Click me !</button>
+    <>
+      <button onDoubleClick={(e) => handleClick(e)}>Click me!</button>
+    </>
   )
 }
 
