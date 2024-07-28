@@ -1,10 +1,10 @@
-import ColorPicker from "./ColorPicker"
+import ObjectChange from "./ObjectChange"
 
 function App() {
   
   return (
     <>
-      <ColorPicker/>
+      <ObjectChange/>
     </>
   )
 
