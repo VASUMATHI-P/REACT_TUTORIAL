@@ -1,10 +1,10 @@
-import ArrayOfObjectsChange from "./ArrayOfObjectsChange"
+import ToDoList from "./ToDoList";
 
 function App() {
   
   return (
     <>
-      <ArrayOfObjectsChange/>
+      <ToDoList/>
     </>
   )
 
