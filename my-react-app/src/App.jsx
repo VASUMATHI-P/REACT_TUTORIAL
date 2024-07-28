@@ -1,10 +1,10 @@
-import ObjectChange from "./ObjectChange"
+import ArrayChange from "./ArrayChange"
 
 function App() {
   
   return (
     <>
-      <ObjectChange/>
+      <ArrayChange/>
     </>
   )
 
