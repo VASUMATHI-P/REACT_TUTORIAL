@@ -1,10 +1,10 @@
-import MyComponent from "./MyComponent"
+import OnChangeComponent from "./OnChangeComponent"
 
 function App() {
   
   return (
     <>
-      <MyComponent/>
+      <OnChangeComponent/>
     </>
   )
 
